@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux';
-
-let sampleReducer = (state = 0) => state;
+import messages from './messages';
 
 export default combineReducers({
-  zero: sampleReducer
+  messages,
 });
